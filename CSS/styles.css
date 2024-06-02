@@ -149,11 +149,13 @@ and just left and right?^^^^^^*/
 
 .bigBoldEmail {
     font-family: Nunito;
-    font-size: 130px;
+    font-size: 90px;
     font-weight: bold;
     margin: 0;
 
 }
+
+/*why is there such a big difference in visual between live and github pages*/
 
 .contactMe {
     background-color: black;
