@@ -1,0 +1,221 @@
+/*what is backgroun repeat no?*/
+
+.header1 {
+    font-family: "Petit Formal Script";
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0%;
+    background-color: black;
+    color: white;
+    height: auto;
+}
+/*^^*/
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+
+.eLee {
+    min-width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+}
+
+.logoName {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.logo {
+    width: 40%;
+    height: 60%;
+    padding: 10%;
+    margin: inherit;
+    
+}
+/*^^*/
+
+/*ul {
+    width: 50%;
+    margin-left: auto;
+    display: inline-block;
+} */
+
+.profile {
+    width: 45%;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px grey;
+}
+
+.heroImg {
+    height: 300%;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.aboutMe {
+    font-family: "Petit Formal Script";
+    font-size: 60px;
+    margin-top: 0;
+}
+
+/*header1.aboutMe {
+    margin-top: 0;
+} 
+
+how do i add two classes to an element? ^^*/
+
+.download {
+    width: 20%;
+    padding: 1%;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+/*is there any way to do horizontal padding or verticla rather than full
+and just left and right?^^^^^^*/
+
+.buttonPosition {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    font-family: Nunito;
+    font-size: 25px;
+    line-height: 1.8;
+}
+
+.info {
+    margin-left: 50px;
+}
+
+.skills {
+    border-color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+/*NOTES: to get padding between buttons, use margins on the button*/
+
+.skillGroup{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0;
+}
+
+/*21px on figma doesnt seem the same size as 21px on css..?^^ */
+
+.bodyBold {
+    font-family: Nunito;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.bigBoldEmail {
+    font-family: Nunito;
+    font-size: 130px;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.contactMe {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/*what is the difference between giving a section 
+with class of heroImg a height vs. create a css selector 
+that targets the class of content or targets our elements with
+the class of inline-block*/
+
+
+
+footer {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+
+.footerContacts {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 25px;
+    padding-right: 68px;
+}
+
+ul {
+    padding: 10px;
+    vertical-align: top;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+li {
+    padding-left: 68px;
+    padding-right: 68px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 25px;
+}
+/*nav options are not horizontally aligning... im not sure 
+what i am doing wrong*/
+
+/*do we have to do this for every 
+webpage we have? or just the about me page?*/
+
